@@ -1,0 +1,23 @@
+_id: req_4b713f9208dc4e3791d6a3ecce46f4f1
+type: Request
+parentId: fld_381fe42e9a57423496adbd903f8e2a41
+modified: 1665552127554
+created: 1665552127554
+url: "{{url}}/user"
+name: Get All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1665551302228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_2557c621b3dc4bbbac76e57dfa12d558
+type: Request
+parentId: fld_381fe42e9a57423496adbd903f8e2a41
+modified: 1665552192132
+created: 1665552127549
+url: "{{url}}/user"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.randomText }}@email.com",
+    	"password": "123456",
+    	"name": "{{ _.randomText }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1665551302278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: env_fca25ec06737825ef58ace9d9d0c4ec93ac10343
+type: Environment
+parentId: wrk_60074874c9aa4b2ab6f8f8bed5206f53
+modified: 1665552170500
+created: 1665552063108
+name: Base Environment
+data:
+  url: http://localhost:3000
+  token: "{% response 'body', 'req_486090c4ef7f49fea647ec0ae1670de8',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
+  randomText: "{% jseval 'Math.random().toString(36).substring(2);' %}"
+  randomNumber: "{% jseval 'Math.floor(Math.random() * (000 - 999) + 999);' %}"
+dataPropertyOrder:
+  "&":
+    - url
+    - token
+    - randomText
+    - randomNumber
+color: null
+isPrivate: false
+metaSortKey: 1665552063108

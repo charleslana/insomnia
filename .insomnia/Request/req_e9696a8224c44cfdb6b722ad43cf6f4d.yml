@@ -1,0 +1,23 @@
+_id: req_e9696a8224c44cfdb6b722ad43cf6f4d
+type: Request
+parentId: fld_381fe42e9a57423496adbd903f8e2a41
+modified: 1665552127562
+created: 1665552127562
+url: "{{url}}/user/detail/me"
+name: Detail
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1665551302128
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_7716e9383cfa4725b0722cb5db141ee3
+type: Request
+parentId: fld_381fe42e9a57423496adbd903f8e2a41
+modified: 1665552127560
+created: 1665552127560
+url: "{{url}}/user"
+name: Update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "{{ _.randomText }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1665551302253
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
